@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>職涯測驗結果</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 40px;
             background-color: #f4f4f4;
             text-align: center;
         }
 
         h1 {
-            color: #333;
+            color: #3498db;
+            margin-bottom: 20px;
         }
 
         .result-container {
@@ -21,18 +23,30 @@
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .result-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
         }
 
         .comment {
-            margin-top: 10px;
+            margin-top: 20px;
             color: #666;
         }
     </style>
 </head>
+
 <body>
     <h1>職涯測驗結果</h1>
     <div class="result-container">
-        <img src="/static/1.jpg" style="max-width: 100%;"></img>
+        <img class="result-image" src="/static/1.jpg" alt="Career Result Image">
     </div>
 </body>
+
 </html>
+
